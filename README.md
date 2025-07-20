@@ -1,3 +1,8 @@
+App screenshot:
+
+![image alt](https://github.com/abhi961/movieExplore/blob/656e91b903513310ec8c343b73ca59767db06661/scrrenshot-git%20(1).jpg)
+
+
 A simple and responsive React Native Movie App built using TypeScript. The app features a Movie List screen that fetches and displays a list of movies using a fake API. Users can view detailed information about each movie on the Details screen and have the ability to add or remove movies from their Favourites. The favourite list is managed using Redux Toolkit for efficient state management.
 
 Key Screens & Features:
@@ -25,9 +30,9 @@ API: https://developer.themoviedb.org/docs/getting-started.
 Design: design 
 
 A fully custom-designed React Native Movie App with intuitive UI and smooth navigation. The app includes a Movie List, Movie Details, and a Favourite feature — all styled with a self-made, unique UI (no third-party UI kits used).
-App screenshot:
 
-![image alt](https://github.com/abhi961/movieExplore/blob/656e91b903513310ec8c343b73ca59767db06661/scrrenshot-git%20(1).jpg)
+
+
 
 
 
