@@ -15,7 +15,9 @@ redux-persist using for store data locally in application when we close the appl
 Navigation: Implemented using React Navigation.
 
 package like : LinearGradient,react-redux, redux/toolkit,react-navigation/native-stack.
+
 Search : you can search movie my movie title.
+
 add to Fav: add to fav toggle state and store data in reducer
 
 API: https://developer.themoviedb.org/docs/getting-started.
