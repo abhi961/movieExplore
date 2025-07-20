@@ -45,10 +45,10 @@ export const HomeScreenStyle = StyleSheet.create({
   },
   logoContainer: {
     resizeMode: 'contain',
-    width: normalize(50),
-    height: normalize(50),
+    width: normalize(35),
+    height: normalize(35),
     alignSelf: 'center',
-    marginTop: normalize(20),
+    marginTop: normalize(10),
     tintColor: COLOR.white,
   },
   noMoviesContainer: {
@@ -70,7 +70,7 @@ export const MovieListStyle = StyleSheet.create({
 
   ImageContainer: {
     width: '100%',
-    aspectRatio: 2 / 2.8,
+    aspectRatio: 2 / 2.5,
     overflow: 'hidden',
     borderTopRightRadius: normalize(20),
     borderTopLeftRadius: normalize(20),
@@ -84,10 +84,9 @@ export const MovieListStyle = StyleSheet.create({
     marginHorizontal: normalize(30),
   },
   CardContainer: {
-    width: '55%',
+    width: '58%',
     backgroundColor: COLOR.cardColor,
-    borderTopRightRadius: normalize(20),
-    borderTopLeftRadius: normalize(20),
+    borderRadius: normalize(15),
     marginHorizontal: normalize(10),
     paddingBottom: normalize(10),
     shadowColor: '#000',
@@ -102,10 +101,10 @@ export const MovieListStyle = StyleSheet.create({
   },
   titleText: {
     color: COLOR.white,
-    fontFamily: FONTS.Nunito_SemiBold,
-    fontSize: normalize(12),
-    marginHorizontal: normalize(8),
-    marginTop: normalize(8),
+    fontFamily: FONTS.Nunito_Bold,
+    fontSize: normalize(13),
+    marginHorizontal: normalize(10),
+    marginTop: normalize(10),
   },
   rating: {
     resizeMode: 'contain',
@@ -119,15 +118,15 @@ export const MovieListStyle = StyleSheet.create({
   },
   ratingText: {
     color: COLOR.white,
-    fontFamily: FONTS.Nunito_Medium,
-    fontSize: normalize(10),
-    marginHorizontal: normalize(8),
+    fontFamily: FONTS.Nunito_SemiBold,
+    fontSize: normalize(12),
+    marginHorizontal: normalize(10),
   },
   releaseText: {
-    fontFamily: FONTS.Nunito_Medium,
+    fontFamily: FONTS.Nunito_SemiBold,
     color: COLOR.white,
-    fontSize: normalize(10),
-    marginHorizontal: normalize(8),
+    fontSize: normalize(12),
+    marginHorizontal: normalize(10),
   },
 });
 
@@ -153,7 +152,7 @@ export const movieDetailsStyle = StyleSheet.create({
     marginHorizontal: normalize(10),
   },
   overviewText: {
-    fontFamily: FONTS.Nunito_Medium,
+    fontFamily: FONTS.Nunito_SemiBold,
     color: COLOR.white,
     fontSize: normalize(14),
     marginTop: normalize(10),
@@ -174,7 +173,7 @@ export const movieDetailsStyle = StyleSheet.create({
     borderRadius: normalize(20),
   },
   releaseText: {
-    fontFamily: FONTS.Nunito_Medium,
+    fontFamily: FONTS.Nunito_SemiBold,
     color: COLOR.white,
     fontSize: normalize(12),
     marginTop: normalize(10),
@@ -188,9 +187,9 @@ export const headerStyle = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: normalize(20),
-    paddingVertical: normalize(10),
+    // paddingVertical: normalize(8),
     backgroundColor: COLOR.cardColor,
-    paddingTop: normalize(25),
+    paddingTop: normalize(20),
     paddingBottom: normalize(15),
   },
   headerTitle: {
@@ -206,8 +205,8 @@ export const headerStyle = StyleSheet.create({
 
   headerImage: {
     resizeMode: 'contain',
-    width: normalize(20),
-    height: normalize(20),
+    width: normalize(15),
+    height: normalize(15),
     borderRadius: normalize(15),
     tintColor: COLOR.white,
   },
@@ -248,7 +247,7 @@ export const textInputStyle = StyleSheet.create({
     color: COLOR.white,
     fontFamily: FONTS.Nunito_Medium,
     fontSize: normalize(12),
-    paddingVertical: normalize(12),
+    paddingVertical: normalize(16),
   },
   searchIcon: {
     width: normalize(20),

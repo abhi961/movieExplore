@@ -11,13 +11,14 @@ import { COLOR } from '../theme/color';
 
 const Home = () => {
   const dispatch = useAppDispatch();
-  const { movies, loading, error } = useAppSelector(state => state.Movies);
+  const { movies, error } = useAppSelector(state => state.Movies);
   console.log(movies, 'Movies');
   const [searchQuery, setSearchQuery] = React.useState<string>('');
   const [masterData, setMasterData] = React.useState<any[]>(movies);
   const [filteredData, setFilteredData] = React.useState<any[]>(masterData);
   useEffect(() => {
     dispatch(fetchMoviesList());
+
   }, [dispatch]);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ const Home = () => {
       colors={['#000000', '#008080', '#004d4d']}
       style={HomeScreenStyle.container}
     >
-      <StatusBar barStyle={'dark-content'} translucent={false} />
+      <StatusBar barStyle={'light-content'} translucent={false} backgroundColor={COLOR.cardColor} />
       <Image source={IMAGES.logo} style={HomeScreenStyle.logoContainer} />
       <CustomTextInput
         value={searchQuery}
@@ -57,7 +58,7 @@ const Home = () => {
         placeholderTextColor={COLOR.white}
       />
       {filteredData.length > 0 ? (
-        <MovieList movies={filteredData} loading={loading} error={error} />
+        <MovieList movies={filteredData} error={error} />
        ) : (
         <View style={HomeScreenStyle.noMoviesContainer}>
           <Text style={HomeScreenStyle.noMoviesText}>No Movies Found</Text>

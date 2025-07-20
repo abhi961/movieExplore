@@ -28,7 +28,7 @@ const MovieListComp:React.FC<MovieListItemProps> = ({movie}) => {
        </View>
        <Text style={MovieListStyle.titleText}>{movie.title}</Text>
       <View style={MovieListStyle.ratingView}>
-         <Text style={MovieListStyle.ratingText}>Rating:{movie.vote_average.toFixed(1)}</Text>
+         <Text style={MovieListStyle.ratingText}>{movie.vote_average.toFixed(1)}</Text>
          <Image source={IMAGES.rating} style={MovieListStyle.rating} />
       </View>
       <Text style={MovieListStyle.releaseText}>{moment(movie.release_date).format('DD MMMM YYYY')}</Text>

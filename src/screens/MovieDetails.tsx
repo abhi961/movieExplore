@@ -41,13 +41,16 @@ const MovieDetails: React.FC<Props> = ({ route }) => {
     return favoriteMovies?.some(fav => fav.id === selectedMovie?.id);
   }, [favoriteMovies, selectedMovie]);
 
+
   useEffect(() => {
     dispatch(fetchMovieDetails(movieId));
   }, [isFocused, movieId, dispatch]);
 
   const addtoFavoritesbutton = () => {
     try {
+
       dispatch(addtoFavoritesRequest());
+     
       if (!selectedMovie) {
         console.error('No movie selected to add to favorites');
         return;
@@ -55,17 +58,17 @@ const MovieDetails: React.FC<Props> = ({ route }) => {
       if (isFavorite) {
         dispatch(removefromFavoritesSuccess(selectedMovie.id));
         Alert.alert(
-          'Remove to Favorites',
+          'Remove from Favorites',
           `${selectedMovie.title} has been remove to your favorites.`,
           [{ text: 'OK' }],
         );
       } else {
         dispatch(addtoFavoritesSuccess(selectedMovie));
-        Alert.alert(
-          'Added to Favorites',
-          `${selectedMovie.title} has been added to your favorites.`,
-          [{ text: 'OK' }],
-        );
+        // Alert.alert(
+        //   'Added to Favorites',
+        //   `${selectedMovie.title} has been added to your favorites.`,
+        //   [{ text: 'OK' }],
+        // );
       }
     } catch (error) {
       console.error('Error adding to favorites:', error);
