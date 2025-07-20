@@ -1,3 +1,35 @@
+A simple and responsive React Native Movie App built using TypeScript. The app features a Movie List screen that fetches and displays a list of movies using a fake API. Users can view detailed information about each movie on the Details screen and have the ability to add or remove movies from their Favourites. The favourite list is managed using Redux Toolkit for efficient state management.
+
+Key Screens & Features:
+
+MovieList Screen: Displays a scrollable list of movies with poster, title, and rating.
+
+Details Screen: Shows detailed information about the selected movie.
+
+Add to Favourite: Allows users to add movies or remove from  favourite.
+
+State Management: Handled via Redux Toolkit.
+
+Navigation: Implemented using React Navigation.
+
+package like : LinearGradient,react-redux, redux/toolkit,react-navigation/native-stack
+API: TMDB.
+Design: design make 
+
+A fully custom-designed React Native Movie App with intuitive UI and smooth navigation. The app includes a Movie List, Movie Details, and a Favourite feature — all styled with a self-made, unique UI (no third-party UI kits used).
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
