@@ -70,7 +70,7 @@ export const MovieListStyle = StyleSheet.create({
 
   ImageContainer: {
     width: '100%',
-    aspectRatio: 2 / 3,
+    aspectRatio: 2 / 2.8,
     overflow: 'hidden',
     borderTopRightRadius: normalize(20),
     borderTopLeftRadius: normalize(20),
