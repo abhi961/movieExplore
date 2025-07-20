@@ -10,7 +10,7 @@ Add to Favourite: Allows users to add movies or remove from  favourite.
 
 State Management: Handled via Redux Toolkit.
 
-redux-persist using for store data locally in application when we close the application and open the data still there in apps.
+redux-persist using for store data locally in application when we close the application and open the apps the data still there in apps.
 
 Navigation: Implemented using React Navigation.
 
