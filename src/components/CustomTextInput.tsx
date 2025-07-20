@@ -1,6 +1,8 @@
-import { View, TextInput } from 'react-native';
+import { View, TextInput ,Image} from 'react-native';
 import React from 'react';
 import { textInputStyle } from '../style/style';
+import { IMAGES } from '../theme/images';
+
 
 interface CustomTextInputProps {
   value?: string;
@@ -25,6 +27,7 @@ const CustomTextInput: React.FC<CustomTextInputProps> = ({
 
         style={textInputStyle.inputField}
       />
+      <Image source={IMAGES.search} style={textInputStyle.searchIcon}/>
     </View>
   );
 };

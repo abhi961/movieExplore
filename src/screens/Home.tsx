@@ -55,7 +55,7 @@ const Home = () => {
         value={searchQuery}
         onChangeText={text => serachFilterFunction(text)}
         placeholder="Find Your Movies"
-        placeholderTextColor={COLOR.white}
+        placeholderTextColor={COLOR.lightGreen}
       />
       {filteredData.length > 0 ? (
         <MovieList movies={filteredData} error={error} />
