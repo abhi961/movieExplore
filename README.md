@@ -18,7 +18,7 @@ package like : LinearGradient,react-redux, redux/toolkit,react-navigation/native
 
 Search : you can search movie my movie title.
 
-add to Fav: add to fav toggle state and store data in reducer
+add to Fav: add to fav toggle state and store data in reducer . if you add to fav button show remove from fav.
 
 API: https://developer.themoviedb.org/docs/getting-started.
 
