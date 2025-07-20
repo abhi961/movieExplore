@@ -111,16 +111,18 @@ export const MovieListStyle = StyleSheet.create({
     width: normalize(10),
     height: normalize(10),
     marginLeft: normalize(1),
+    tintColor: COLOR.lightGreen,
   },
   ratingView: {
     flexDirection: 'row',
     alignItems: 'center',
   },
   ratingText: {
-    color: COLOR.white,
-    fontFamily: FONTS.Nunito_SemiBold,
+    color: COLOR.lightGreen,
+    fontFamily: FONTS.Nunito_Bold,
     fontSize: normalize(12),
     marginHorizontal: normalize(10),
+    paddingVertical:normalize(4)
   },
   releaseText: {
     fontFamily: FONTS.Nunito_SemiBold,
