@@ -13,8 +13,8 @@ State Management: Handled via Redux Toolkit.
 Navigation: Implemented using React Navigation.
 
 package like : LinearGradient,react-redux, redux/toolkit,react-navigation/native-stack
-API: TMDB.
-Design: design make 
+API: https://developer.themoviedb.org/docs/getting-started.
+Design: design 
 
 A fully custom-designed React Native Movie App with intuitive UI and smooth navigation. The app includes a Movie List, Movie Details, and a Favourite feature — all styled with a self-made, unique UI (no third-party UI kits used).
 App screenshot:
