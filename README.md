@@ -17,7 +17,8 @@ API: TMDB.
 Design: design make 
 
 A fully custom-designed React Native Movie App with intuitive UI and smooth navigation. The app includes a Movie List, Movie Details, and a Favourite feature — all styled with a self-made, unique UI (no third-party UI kits used).
-
+App screenshot:
+![image alt](https://github.com/abhi961/movieExplore/blob/9e7207c0b30768129bde174992c4626b2dfadf7a/scrrenshot-git.jpg)
 
 
 
